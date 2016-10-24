@@ -1,0 +1,105 @@
+body {
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+a:link {
+	color: #d168ff; 
+
+}
+a:visited {
+	color: #d168ff;
+}
+
+#page {
+	margin: 0px 10px 0px 10px;
+	letter-spacing: 2px;
+	color: #595b59;
+}
+
+#nav {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #898989;
+}
+
+#nav_links {
+	float: right;
+	max-width: 260px;
+	text-align: center;
+
+}
+
+#nav_links a:link {
+	margin: 0px 10px 0px 10px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	letter-spacing: 2px;
+	color: #383838;
+	
+}
+
+#nav_links a:visited {
+	color: #383838;
+}
+
+#nav_links a:hover {
+	text-decoration: underline;
+}
+#content {
+	margin: 0px 50px 0px 50px;
+}
+#header_info {
+	border-bottom: 1px solid #898989;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 10px 0px;
+}
+
+#header_info div {
+	font-size: 24px;
+	
+}
+
+#header_info div.green {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#today_info {
+	padding: 40px;
+	margin-bottom: 20px;
+	border-bottom:1px solid #898989;
+	text-align: center;
+	font-size: 32px;
+}
+
+#today_info a:link, #list_sites a:link {
+	font-weight: bold;
+}
+
+#list_sites {
+	font-size: 16px;
+}
+
+.green {
+	color: #7ed86a; 
+}
+
+h1.green {
+	font-size: 96px;
+	margin: 0px;
+
+}
+
+#footer {
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+
+}

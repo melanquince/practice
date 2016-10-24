@@ -1,0 +1,45 @@
+
+body {
+	background-color: #fffef7;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+#page {
+	height:3800px;
+}
+
+#top_message, #back_message {
+	font-size: 36px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	line-height: 70px;
+	color: #871b1b;
+	letter-spacing: 0px;
+	margin-left: 80px;
+}
+
+#tip {
+	margin: 80px 0px 0px 80px;
+	color: #666666;
+	font-size: 17px;
+	font-style: italic;
+}
+#top_message {
+	position: fixed;
+	top:200px;
+}
+
+#back_message {
+	position: absolute;
+	top: 1500px;
+	
+}
+
+#author {
+	color: #3a3939;
+	font-size: 24px;
+	text-align: right;
+	font-style: italic;
+}
+
+ 

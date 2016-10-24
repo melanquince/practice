@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin:0px;
+	padding: 0px;
+	cursor: default;
+	user-select: none;
+}
+
+#bouncing_ball {
+	width: 900px;
+	height: 627px;
+	border-bottom: 10px solid #000;
+	margin:20px auto;
+	
+}
+
+#container_main {
+	position: relative;
+}
+
+#container_left {
+	float: left;
+	width: 250px;
+	margin:50px 0px 0px 80px;
+}
+
+#container_right {
+	float:right;
+	width: 570px;
+}
+
+#message_container {
+	display: none;
+	text-align: center;
+	width: 200px;
+	margin:220px 0px 0px 280px;
+}
+
+#replay {
+	display: none;
+}
+
+#text p {
+	font-size: 21px;
+	line-height: 23px;
+}
+
+#text h2 {
+	font-size: 34px;
+	line-height: 36px;
+}
+
+#replay {
+	text-decoration: underline;
+	font-weight: bold;
+} 
+
+#replay:hover {
+	cursor: pointer;
+}
+
+#ball {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #ad42f4;
+	cursor:pointer;
+	position: absolute;
+	margin-left: 650px;
+	top: 10px;
+  	animation: bounce 12s infinite;
+
+}
+
+#ball:hover {
+	background-color: #cf07fc;
+}
+
+a:link, a:visited, a:active, a:hover {
+	color: #000;
+}
+
+/* Animation Keyframes */
+
+@keyframes bounce {
+0%   {margin-top: 0px; animation-timing-function: ease-in;}
+11%  {width: 120px;}
+12%  {margin-top: 500px; width: 135px; animation-timing-function: ease-out;}
+13%  {width: 120px;}
+25%  {margin-top: 0px; animation-timing-function: ease-in;}
+36%  {width: 120px;}
+37%  {margin-top: 500px; width: 135px; animation-timing-function: ease-out;}
+38%  {width: 120px;}
+49%  {margin-top: 0px; animation-timing-function: ease-in;}
+60%  {width: 120px;}
+61%  {margin-top: 500px; width: 135px; animation-timing-function: ease-out;}
+62%  {width: 120px;}
+75%  {margin-top: 0px; animation-timing-function: ease-in;}
+86%  {width: 120px;}
+87%  {margin-top: 500px; width: 135px; animation-timing-function: ease-out;}
+88%  {width: 120px;}
+100% {margin-top: 0px; animation-timing-function: ease-in;}
+}

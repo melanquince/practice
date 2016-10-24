@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono');
+body {
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+	user-select:none;
+	cursor: default;
+}
+
+#container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #e8a2f2;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #606060;
+
+}
+
+.dedicate {
+	letter-spacing: -5px;
+	font-family: Arial;
+}
+
+#container p {
+	margin-top: 70px;
+	font-size: 40px;
+}
+
+#clock, #color {
+	font-family: "Roboto-Mono", monospace;
+	font-size: 128px;
+	letter-spacing: -5px;
+}

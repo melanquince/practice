@@ -1,0 +1,29 @@
+body {
+	background-color: #1e1c1b;
+	margin: 0px;
+	padding: 0px;
+	-ms-user-select: none;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#platform {
+	width: 900px;
+	padding: 0px;
+	background-color: #424242;
+	margin: 0 auto;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+.square:hover {
+	box-shadow:0px 0px 7px #ffffff;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald:300,400,700|PT+Sans');
+
+body {
+	font-family: 'Merriweather', sans-serif;
+}
+
+#page {
+	width: 500px;
+	margin:80px auto;
+}
+
+img {
+	margin:0;
+	padding: 0;
+}
+
+#image {
+	cursor: pointer;
+} 
+
+#text {
+	padding: 10px;
+	cursor: pointer;
+}
+
+#quote {
+	margin-top: 20px;
+	font-size: 28px;
+	text-align: center;
+	color: #3b516d;
+	cursor: pointer;
+
+}
+
+#author {
+	font-size: 21px;
+	text-align: right;
+	font-style: italic;
+	cursor: pointer;
+}
