@@ -1,4 +1,98 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Roboto&subset=cyrillic');
 body {
 	font-family: 'Open-Sans', sans-serif;
+	background-color: #444;
+	user-select:none;
+	cursor: default;
+}
+
+#page {
+	padding: 20px;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#logo {
+	font-size: 32px;
+	color: #42f480;
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 1px  #000;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+}
+#head {
+	width: 1150px;
+	margin:0 auto;
+}
+
+button {
+	font-size: 16px;
+	padding: 5px 12px 5px 12px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+#color {
+	font-size: 18px;
+	border:1px solid #42f480;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+
+#size {
+	font-size: 18px;
+	border:1px solid #42f480;
+	border-radius: 3px;
+	cursor: text;
+	font-weight: bold;
+	background-color: #969696;
+	color: #fff;
+	text-align: center;
+}
+
+#eraser button {
+	background-color: #b642f4;
+	border-radius: 3px;
+	border-bottom: 2px solid #78209b;
+}
+
+#eraser_all button {
+	background-color: #f44262;
+	border-radius: 3px;
+	border-bottom: 2px solid #9b2070;
+}
+
+#interface {
+	display: inline-block;
+	float: right;
+	
+	color: #42f480;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#interface div {
+	margin-right: 25px;
+}
+#container {
+	width: 1150px;
+	margin: 30px auto 10px auto;
+	padding: 0;
+	height: 750px;
+	background-color: #fff; 
+	border-radius: 5px;
+}
+.line {
+	display: inline-block;
+}
+#container canvas {
+	//cursor:none;
+	/*cursor: crosshair;*/
+	border-radius: 5px;
+
 }
