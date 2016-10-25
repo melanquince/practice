@@ -5,12 +5,10 @@ var intColor =  document.getElementById('color'); // id input color
 var intSize = document.getElementById('size'); // id input size
 var painting = document.getElementById('container'); // id of div inside of is vanvas
 
-
 // canvas take the same size as parent div
 var paint_style = getComputedStyle(painting); // take all css values
 canvas.width = parseInt(paint_style.getPropertyValue('width')); 
 canvas.height = parseInt(paint_style.getPropertyValue('height'));
-
 
 var mouse = {x: 0, y: 0, size: 0, color: 0 };
 
@@ -19,17 +17,10 @@ canvas.addEventListener('mousemove', function(e) {
   mouse.x = e.pageX - this.offsetLeft;
   mouse.y = e.pageY - this.offsetTop;
   console.log(mouse.x + " " + mouse.y);
-
-
 });
 
 mouse.color = getColor();
 mouse.size  = getSize();
-
-
-
-
-
 
 function getColor() {
 	return "#"+intColor.value;
@@ -52,9 +43,6 @@ function mouseDraw() {
 
 }
 
-
-
-
 // function mouseMove() {
 // 	ctx.clearRect(0,0,canvas.width,canvas.height);
 // 	ctx.beginPath();
@@ -65,14 +53,12 @@ function mouseDraw() {
 // }
 // mouseMove();
 
-
 canvas.addEventListener('mousedown', function(e) {
 	canvas.addEventListener('mousemove', mouseDraw );
 	//requestAnimationFrame();
  	
  });
 
- 
 canvas.addEventListener('mouseup', function() {
 	canvas.removeEventListener('mousemove', mouseDraw);
 		
@@ -82,8 +68,6 @@ canvas.addEventListener('mouseleave', function() {
 	canvas.removeEventListener('mousemove', mouseDraw);
 });
 
-
- 
 // events to buttons and inputs
 
 document.getElementById('eraser_all').addEventListener("click", function() {
