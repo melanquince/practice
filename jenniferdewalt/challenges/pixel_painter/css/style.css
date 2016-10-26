@@ -14,6 +14,7 @@ body {
 	justify-content: center;
 }
 
+
 #logo {
 	font-size: 32px;
 	color: #42f480;
@@ -42,8 +43,6 @@ button {
 	cursor: pointer;
 
 }
-
-
 
 #size {
 	font-size: 18px;
@@ -91,8 +90,5 @@ button {
 	display: inline-block;
 }
 #container canvas {
-	//cursor:none;
-	/*cursor: crosshair;*/
 	border-radius: 5px;
-
 }

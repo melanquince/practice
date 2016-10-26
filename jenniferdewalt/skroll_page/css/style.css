@@ -1,4 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&subset=cyrillic');
 body {
 	font-family: 'Open-Sans', sans-serif;
+	background-color: #FDE74C;
+      transition: all 1s ease-in;
+      padding: 50px;
+      color: #111;
+      line-height: 32px;
+      font-size: 18px;
 }
+
+h1 {
+      font-family: sans-serif;
+    }
+ 
+    .colorOne {
+      background-color: #9BC53D;
+      color: #000;
+    }
+ 
+    .colorTwo {
+      background-color: #FFF;
+      color: #000;
+    }
+ 
+    #mainContent {
+      width: 420px;
+      margin: 0 auto;
+    }
+ 
+    #mainContent p {
+      padding: 20px;
+    }
+ 
+    #mainContent #firstBox {
+      font-weight: bold;
+      transform: translate3d(-30px, 0, 0);
+      transition: all .5s ease-out;
+      opacity: 0;
+    }
+ 
+    #mainContent #firstBox.active {
+      background-color: #333;
+      color: #FFF;
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+ 
+    #mainContent #secondBox {
+      transition: all .2s ease-in-out;
+      transform: translate3d(0, 30px, 0);
+      opacity: 0;
+    }
+ 
+    #mainContent #secondBox.active {
+      background-color: #1581AF;
+      color: #FFF;
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+ 
+    #mainContent ol li {
+      padding-left: 7px;
+      margin-bottom: 15px;
+      transition: all .2s ease-in-out;
+      transform: translate3d(20px, 0, 0);
+      opacity: 0;
+    }
+ 
+    #mainContent ol li.active {
+      transform: translate3d(0px, 0, 0);
+      opacity: 1;
+    }
