@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>{Name of page}</title>
+	<title>Tough love</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -14,15 +14,25 @@
 <body>
 	<header>
 		<nav>
-			<a href="#">Home</a>
-			<a href="#">About</a>
+			<a href="../index.html">Home</a>
+			<a href="http://github.com/melanquince">GitHub</a>
+			<a href="#about">About</a>
 		</nav>	
 	</header>
 	<div id="container">
-		{container}
+		<div id="text">
+			<p id="first_line">What's your bad habit?</p>
+			<p id="second_line"></p>
+		</div>
+		<div id="answer">
+			<form>
+				<input id="bad_habit" type="text" autocomplete="off"  placeholder="My bad habit is I...">
+				<input id="submit_btn" type="button" value="Submit">
+			</form>
+		</div>
 	</div>
 	<footer>
-		{footer}		
+		<div id="about">Just repating challenges. Copied from <a href="https://jenniferdewalt.com">Jennifer Dewalt</a></div> 
 	</footer>
 	
 </body>

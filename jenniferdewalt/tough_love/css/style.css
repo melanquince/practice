@@ -1,4 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 body {
 	font-family: 'Open-Sans', sans-serif;
+	background-color: #fefff2;
+}
+
+header {
+	width: 100%;
+	height: 30px;
+	background-color: #ed7e74;
+	line-height: 30px;
+	border-bottom:1px solid #c66057;
+}
+
+nav {
+	float: right;
+}
+
+a:link, a:visited {
+	color: #c66057;
+}
+
+nav a:link, nav a:visited {
+	font-size: 16px;
+	text-decoration: none;
+	margin-right: 15px;
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	bottom:0;
+}
+
+#container {
+	max-width: 650px;
+	margin: 100px auto;
+}
+
+#text {
+	font-family: 'Inconsolata', monospace;
+	font-size: 42px;
+	color: #3a3a3a;
+	text-align: center;
+}
+
+#text p {
+	margin:15px 0px 35px 0px;
+}
+
+#answer {
+	max-width: 500px;
+	margin:180px auto 20px auto;
+	height: 40px;
+}
+
+#answer input {
+	border-radius: 3px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#answer input[type=text] {
+	border: 1px solid #b7b7b7;
+	font-family: 'Inconsolata', monospace;
+	color: #3a3a3a;
+	width: 384px;
+	height: 37px;
+	padding: 0px 10px 0px 10px;
+}
+
+#answer input[type=text]:focus {
+	border:1px solid #f94581;
+
+}
+
+#answer input[type=button] {
+	border: 1px solid #f94581;
+	height: 39px;
+	background-color: #f94581;
+	width: 90px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+
 }
